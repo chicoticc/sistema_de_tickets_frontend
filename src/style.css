@@ -6,6 +6,7 @@ body {
   margin: 0;
   background-color: #f4f6f8;
   color: #222;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 button,
@@ -13,4 +14,12 @@ input,
 textarea,
 select {
   font-family: inherit;
+}
+
+.view-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: white;
+  border-radius: 12px;
 }
