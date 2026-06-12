@@ -12,7 +12,7 @@ export const getUsuarios = async ():
 }
 
 export const getUsuarioByMail = async (mail: string): Promise<UsuarioResponse> => {
-    const response = await axios.get<UsuarioResponse>(`${API_URL}/email/${encodeURIComponent(mail)}`);
+    const response = await axios.get<UsuarioResponse>(`${API_URL}/mail/${encodeURIComponent(mail)}`);
 
     return response.data;
 }
